@@ -1,5 +1,5 @@
 defaultBranch: 'dev'
-branchName: '${feature.number}'
+branchName: '${issue.number}'
 branches:
   - label: 🚀 feature
     prefix: feature/
