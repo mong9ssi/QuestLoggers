@@ -1,0 +1,7 @@
+package com.missionx.questloggers.domain.boss.exception;
+
+public class Exception extends RuntimeException {
+    public Exception(String message) {
+        super(message);
+    }
+}
