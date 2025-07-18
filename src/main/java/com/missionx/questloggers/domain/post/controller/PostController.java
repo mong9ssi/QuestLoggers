@@ -1,6 +1,6 @@
-package com.missionx.questloggers.domain.user.controller;
+package com.missionx.questloggers.domain.post.controller;
 
-import com.missionx.questloggers.domain.user.service.UserService;
+import com.missionx.questloggers.domain.post.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
-public class UserController {
+public class PostController {
 
-    private final UserService userService;
-
+    private final PostService postService;
 }
